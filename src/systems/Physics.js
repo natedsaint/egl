@@ -1,6 +1,6 @@
 import Entify from 'entify';
 
-const Physics = new Entify.system('Physics');
+const Physics = new Entify.System('Physics');
 
 Physics.setup = () => {
 

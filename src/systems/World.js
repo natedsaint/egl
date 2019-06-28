@@ -3,7 +3,7 @@ import Entify from 'entify';
 // physics will modify the position of the item before it gets here based on velocity
 // and gravity calculations, this just paints them
 
-const World = new Entify.system('World');
+const World = new Entify.System('World');
 
 World.setup = () => {
 
@@ -15,4 +15,4 @@ World.work = (entities) => {
   // so the canvas knows what to draw
 };
 
-export default Physics;
+export default World;

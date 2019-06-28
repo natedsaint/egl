@@ -12,8 +12,16 @@ EGL.addStartSystem = (system) => {
   Entify.startSystems.push(system);
 };
 
+EGL.addStartSystems = (systems) => {
+  Entify.startSystems = Entify.startSystems.concat(systems);
+};
+
 EGL.addLoopSystem = (system) => {
   Entify.loopSystems.push(system);
+};
+
+EGL.addLoopSystems = (systems) => {
+  Entify.loopSystems = Entify.loopSystems.concat(systems);
 };
 
 EGL.start = () => {
