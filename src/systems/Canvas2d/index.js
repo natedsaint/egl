@@ -1,5 +1,6 @@
 import Entify from 'entify';
 import Triangle from '../Shape/Triangle.js';
+import MouseEvents from './MouseEvents.js';
 
 const Canvas2d = new Entify.System('canvas2d');
 
@@ -16,6 +17,7 @@ Canvas2d.setup = () => {
   document.body.appendChild(canvas);
   Canvas2d.context = canvas.getContext('2d', { alpha: false });
   Canvas2d.canvas = canvas;
+  MouseEvents(canvas, Canvas2d.mouseCallbacks, []);
 };
 
 Canvas2d.work = (entities) => {
