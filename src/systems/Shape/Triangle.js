@@ -2,7 +2,6 @@ const Triangle = function(entity) {
   const center = entity.components.world_position;
   const size = entity.components.canvas_triangle.width;
   const angle = entity.components.canvas_triangle.angle;
-  // let's start with a triangle that's just straight up
   //  𝑥 = D * cos 𝜃
   //  𝑦 = D * sin 𝜃.
   // 360 / 3 = 120

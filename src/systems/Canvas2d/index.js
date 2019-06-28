@@ -1,5 +1,5 @@
 import Entify from 'entify';
-import Triangle from './Triangle.js';
+import Triangle from '../Shape/Triangle.js';
 
 const Canvas2d = new Entify.System('canvas2d');
 

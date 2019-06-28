@@ -15,8 +15,6 @@ Physics.setup = () => {
 Physics.work = (entities) => {
   entities.forEach((entity) => {
     if (entity.components.physics_collision) {
-      // TODO: find all other entities with collision and check for collision
-      // TODO: find world bounds and check for collision
       entity = Collision(entity, entities); 
     }
     if (entity.components.physics_gravity && entity.components.world_position) {
