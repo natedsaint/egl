@@ -6,7 +6,8 @@ import Entify from 'entify';
 const World = new Entify.System('World');
 
 World.setup = () => {
-
+  World.height = 600;
+  World.width = 800;
 };
 
 World.work = (entities) => {
