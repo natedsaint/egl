@@ -6,9 +6,9 @@ import PhysicsVelocity from '../../components/PhysicsVelocity.js';
 
 const Character = function(size, angle, color, position, velocity) {
   let entity = new Entify.Entity();
-  let red = (color && color.red) ? color.red : 255;
-  let green = (color && color.green) ? color.green : 255;
-  let blue = (color && color.blue) ? color.blue : 255;
+  let red = (color && color.red > -1) ? color.red : 255;
+  let green = (color && color.green > -1) ? color.green : 255;
+  let blue = (color && color.blue > -1) ? color.blue : 255;
   let posY = (position && position.y) ? position.y : 0;
   let posX = (position && position.x) ? position.x : 0;
   let velX = (velocity && velocity.x) ? velocity.x : 0;

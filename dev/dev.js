@@ -5,7 +5,6 @@ import CanvasWithPhysics2DLoop from '../src/assemblages/system/CanvasWithPhysics
 EGL.addStartSystem(CanvasWithPhysics2DStartup);
 EGL.addLoopSystems(CanvasWithPhysics2DLoop);
 EGL.start();
-// EGL.start();
 // EGL.stop();
 // EGL.play();
 // EGL.reset();
