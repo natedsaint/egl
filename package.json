@@ -1,7 +1,7 @@
 {
   "name": "egl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Entify Game Library -- a game engine based on Entify",
   "main": "index.js",
   "scripts": {
     "dev": "parcel dev/index.html"
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "entify": "^0.4.0",
+    "entify": "^0.5.1",
     "parcel-bundler": "^1.12.3",
     "tools": "0.0.0"
   }

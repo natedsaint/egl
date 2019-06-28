@@ -3,6 +3,7 @@ import CanvasColor from '../../components/CanvasColor.js';
 import CanvasTriangle from '../../components/CanvasTriangle.js';
 import WorldPosition from '../../components/WorldPosition.js';
 import PhysicsVelocity from '../../components/PhysicsVelocity.js';
+import PhysicsGravity from '../../components/PhysicsGravity.js';
 
 const Character = function(size, angle, color, position, velocity) {
   let entity = new Entify.Entity();
@@ -17,6 +18,7 @@ const Character = function(size, angle, color, position, velocity) {
   entity.addComponent(new CanvasTriangle(size, angle));
   entity.addComponent(new WorldPosition(posX,posY));
   entity.addComponent(new PhysicsVelocity(velX, velY));
+  entity.addComponent(new PhysicsGravity(1));
   return entity;
 };
 

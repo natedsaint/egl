@@ -1,5 +1,6 @@
 const PhysicsGravity = function(magnitude = 1) {
   this.magnitude = 1;
+  this.fallDuration = 0;
 };
 
 // whenever velocity is calculated we'll also need to determine the impact of gravity
