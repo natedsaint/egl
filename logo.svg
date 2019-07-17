@@ -1,0 +1,81 @@
+<svg id="EGL logo" xmlns="http://www.w3.org/2000/svg" width="1280" height="660" viewBox="0 0 1280 660">
+<defs>
+<style>
+      .cls-1 {
+        fill: #6ce72f;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3 {
+        fill: #fff200;
+      }
+
+      .cls-4 {
+        fill: #f26521;
+      }
+
+      .cls-5 {
+        fill: #2e3192;
+      }
+
+      .cls-6 {
+        fill: #6ecff6;
+      }
+
+      .cls-7 {
+        fill: #790000;
+      }
+
+      .cls-8 {
+        fill: #662d91;
+      }
+
+      .cls-9 {
+        fill: #f06eaa;
+      }
+
+      .cls-10 {
+        fill: #fff467;
+      }
+
+      .cls-11 {
+        fill: #c7b299;
+      }
+
+      .cls-12 {
+        fill: #00aeef;
+      }
+
+      .cls-13 {
+        fill: #fbaf5c;
+      }
+
+      .cls-14 {
+        fill: #ec008c;
+      }
+    </style>
+</defs>
+<path class="cls-1" d="M783,218L652,147L656,64Z"></path>
+<path class="cls-2" d="M316,208L644,318L572,216Z"></path>
+<path class="cls-3" d="M572,216L644,318L692,312Z"></path>
+<path class="cls-4" d="M421,141L396,46L834,269Z"></path>
+<path class="cls-5" d="M690,312L573,216L757,309Z"></path>
+<path class="cls-6" d="M421,141L757,308L834,269Z"></path>
+<path class="cls-7" d="M690,312L662,343L743,329Z"></path>
+<path class="cls-8" d="M735,371L743,329L662,343Z"></path>
+<path class="cls-9" d="M758,308L743,329L692,312Z"></path>
+<path class="cls-10" d="M748,393L743,329L735,371Z"></path>
+<path class="cls-11" d="M762,383L777,371L785,378Z"></path>
+<path class="cls-12" d="M748,393L752,365L743,329Z"></path>
+<path class="cls-12" d="M758,308L836,280L834,269Z"></path>
+<path class="cls-3" d="M845,309L836,280L757,309Z"></path>
+<path class="cls-13" d="M848,317L854,300L836,280Z"></path>
+<path class="cls-14" d="M748,393L777,371L752,365Z"></path>
+</svg>
