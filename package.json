@@ -4,7 +4,8 @@
   "description": "Entify Game Library -- a game engine based on Entify",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel dev/index.html"
+    "dev": "parcel dev/index.html",
+    "docs": "rm -rf docs/* && parcel build dev/index.html -d docs --public-url './'"
   },
   "author": "",
   "license": "ISC",
